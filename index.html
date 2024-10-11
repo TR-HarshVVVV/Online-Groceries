@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Online Organic Store</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Organic Store</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Fresh Organic Fruits & Vegetables</h1>
+        <p>Shop Now for Seasonal Specials!</p>
+        <button><a href="#shop">Shop Now</a></button>
+    </section>
+
+    <section id="shop">
+        <h2>Product Categories</h2>
+        <div class="product-category">
+            <h3>Fruits</h3>
+            <div class="product">
+                <img src="apple.jpeg" alt="Apple">
+                <h4>Apple</h4>
+                <p>Price: $2.00</p>
+                <button class="add-to-cart" data-name="Apple" data-price="2.00">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="banana.jpg" alt="Banana">
+                <h4>Bananas (Half Dozen)</h4>
+                <p>Price: $1.50</p>
+                <button class="add-to-cart" data-name="Banana" data-price="1.50">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product-category">
+            <h3>Vegetables</h3>
+            <div class="product">
+                <img src="carrot.jpeg" alt="Carrot">
+                <h4>Carrot</h4>
+                <p>Price: $1.00</p>
+                <button class="add-to-cart" data-name="Carrot" data-price="1.00">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="broccoli.jpeg" alt="Broccoli">
+                <h4>Broccoli</h4>
+                <p>Price: $1.80 per 100g</p>
+                <button class="add-to-cart" data-name="Broccoli" data-price="1.80">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0.00</span></p>
+    </section>
+
+    <section id="sustainability">
+        <h2>Sustainability Commitment</h2>
+        <p>At Organic Store, we are dedicated to supporting environmentally responsible practices. Our products are sourced directly from local farmers who adhere to sustainable and eco-friendly farming methods. These practices not only ensure the highest quality of organic produce but also promote soil health, biodiversity, and a reduced carbon footprint. We are committed to fostering a healthier planet while providing fresh, natural products to our customers.</p>
+    </section>
+    
+
+    <section id="reviews">
+        <h2>Customer Reviews</h2>
+        <p>"Freshest produce I've ever bought!" - Viraj S.</p>
+    </section>
+
+    <footer>
+        <p>Contact: info@organicstore.com | Follow Us:</p>
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="facebook.png" alt="Facebook" class="social-icon">
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="instagram.webp" alt="Instagram" class="social-icon">
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+            <img src="twitter.jpg" alt="Twitter" class="social-icon">
+        </a>
+        <p>Shipping Policy: Free shipping on orders over $30.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
